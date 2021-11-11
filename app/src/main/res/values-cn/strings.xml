@@ -3,7 +3,7 @@
     <string name="title_home">搜索</string>
     <string name="title_dashboard">单词本</string>
     <string name="title_notifications">用户</string>
-    <string name="login_button_login">Login</string>
+    <string name="login_button_login">登录</string>
     <string name="login_hint_password">登录密码</string>
     <string name="login_texttitle_password">密 码：</string>
     <string name="login_hint_username">手机号/邮箱/用户名</string>

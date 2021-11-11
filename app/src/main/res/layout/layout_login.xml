@@ -21,7 +21,7 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_marginLeft="30dp"
-            android:text="登录"
+            android:text="@string/login_button_login"
             android:textColor="#fff"
             android:textSize="20dp" />
 
@@ -34,7 +34,7 @@
             android:layout_marginRight="30dp"
             android:clickable="true"
             android:onClick="onClick"
-            android:text="注册"
+            android:text="@string/login_button_register"
             android:textColor="#fff"
             android:textSize="20dp" />
     </RelativeLayout>
@@ -59,12 +59,12 @@
                 android:id="@+id/tv_loginactivity_username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="用户名："/>
+                android:text="@string/login_texttitle_username"/>
             <EditText
                 android:id="@+id/et_loginactivity_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="手机号/邮箱/用户名"/>
+                android:hint="@string/login_hint_username"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="10dp"
@@ -74,15 +74,16 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
-                android:id="@+id/tv_loginactivity_password"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="密    码："/>
+                    android:id="@+id/tv_loginactivity_password"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_texttitle_password"
+                    android:textAlignment="inherit"/>
             <EditText
                 android:id="@+id/et_loginactivity_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="登录密码"
+                android:hint="@string/login_hint_password"
                 android:inputType="textPassword"/>
         </LinearLayout>
     </LinearLayout>
@@ -95,7 +96,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:text="登录"
+        android:text="@string/login_button_login"
         android:textColor="#fff"
         android:textSize="18dp"
         android:gravity="center"

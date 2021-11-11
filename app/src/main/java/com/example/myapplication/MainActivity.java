@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
 import android.support.annotation.NonNull;
@@ -20,6 +21,7 @@ import com.example.myapplication.myfragment.SearchFragment;
 import com.example.myapplication.myfragment.WordbookFragment;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 import butterknife.OnClick;
 
@@ -168,5 +170,13 @@ public class MainActivity extends FragmentActivity {
                 }
                 break;
         }
+    }
+
+    private void changeLanguage(String language) {
+        Locale locale = new Locale(language);
+        Locale.setDefault(locale);
+        Configuration configuration = new Configuration();
+        configuration.locale = locale;
+        getApplicationContext().getResources().updateConfiguration(configuration, getApplicationContext().getResources().getDisplayMetrics());
     }
 }
