@@ -5,7 +5,7 @@
     <string name="title_notifications">User</string>
     <string name="login_button_login">Login</string>
     <string name="login_hint_password">Login Password</string>
-    <string name="login_texttitle_password">Password：</string>
+    <string name="login_texttitle_password">Password:</string>
     <string name="login_hint_username">Number/Email Address/User Name</string>
     <string name="login_texttitle_username">User Name:</string>
     <string name="login_button_register">Register</string>
