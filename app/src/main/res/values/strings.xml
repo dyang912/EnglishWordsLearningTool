@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">MyDictionary</string>
-    <string name="title_home">搜索</string>
-    <string name="title_dashboard">单词本</string>
-    <string name="title_notifications">用户</string>
+    <string name="title_home">Search</string>
+    <string name="title_dashboard">Word Book</string>
+    <string name="title_notifications">User</string>
     <string name="login_button_login">Login</string>
-    <string name="login_hint_password">登录密码</string>
-    <string name="login_texttitle_password">密 码：</string>
-    <string name="login_hint_username">手机号/邮箱/用户名</string>
-    <string name="login_texttitle_username">用户名：</string>
-    <string name="login_button_register">注册</string>
+    <string name="login_hint_password">Login Password</string>
+    <string name="login_texttitle_password">Password：</string>
+    <string name="login_hint_username">Number/Email Address/User Name</string>
+    <string name="login_texttitle_username">User Name:</string>
+    <string name="login_button_register">Register</string>
 </resources>
